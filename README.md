@@ -11,3 +11,5 @@ Because this abstracts away the need for some low level work and forces you into
 ## Architecture
 
 It is based on two interfaces (IncomingPort anbd OutgoingPort (sursprise, surprise)) with implementations for different transportation layers (like RabbitMQ or provding a HTTP endpoint, etc)
+
+All configuration is done using environment variables.
